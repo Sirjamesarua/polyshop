@@ -1,0 +1,1288 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <script src="./js/script1.js"></script>
+    <link rel="stylesheet" href="./css/w3.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="https://font.googleapis.com/css?family=Roboto"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" ></link>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    
+	<style>
+			/*MY STYLE*/
+			.border-center{
+				display:flex;
+				justify-content:center;
+			}
+			
+			.borders-center{
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+			}
+			
+			.borderlng{
+				width:100%;
+			}
+			
+			.filterform{
+				background-color:#48006F;
+				width:100%;
+			}
+			
+			.filterselect{
+				background-color:#48006F;
+				width:60%;
+				color:white;
+			}
+			
+			.newproductform{
+				width:70%;
+			}
+			
+			.choosefile{
+				width:75%;
+			}
+			
+			.viewedproductimg{
+				width:80%;
+				height:600px;
+				background-color:blue;
+			}
+			
+			.w3-round-jumbo{
+					border-radius:120px;
+					}
+			
+			body{
+				background-color:#48006F;
+				font-family:serif;
+				color:white;
+				box-sizing: border-box;
+			}
+	
+			/*HEADER*/
+			.header-container{
+				background-color:#48006F;
+			}
+			
+			.menu{
+				display:none;
+			}
+			
+			
+			/*CATEGORIES*/
+			.categories{
+				width:95%;
+				color:#48006F;
+			}
+			
+			.cat{
+				background-color:#DFDFDF;
+				height:200px;
+				width:200px;
+			}
+			
+			/*ADS*/
+			.ads{
+				width:90%;
+				height:250px;
+				background-color:white;
+			}
+			
+			/*MAIN*/
+			.main{
+				  color:#48006F;
+					background-color:white;
+				  width:90%;
+			}
+	
+			/*FORM"*/
+			.submit-btn{
+				background-color:#48006F;
+				color:white;
+				width:60%;
+			}
+			.product-list{
+				background-color:#DFDFDF;
+			  color:#48006F;
+				width:99%;
+				height:300px;
+			}
+			
+			.product-img{
+				height:280px;
+				float:left;
+			}
+			
+			.price-tag{
+				display:flex;
+				justify-content:flex-end;
+			}
+			
+			
+	</style>
+	
+</head>
+<body>
+			<!--HEADER-->
+			<div class="header-container">
+					<div class="header w3-center">
+					
+							<!--HEADER NAME-->
+							<div class="">
+								<b style="font-size:500%">JOSMARKET</b>
+							</div>
+							<!--MENU-->
+							<div class="menu-container">
+							
+									<div class="w3-border"></div>
+									<div class="">
+											<!--<i class="fa fa-bars fa-3x w3-col" style="width:10%;"></i>-->
+											<form class="w3-row w3-padding w3-center">
+													<div class="w3-col" style="width:10%;"><i class="fa fa-bars fa-2x" id="menubtn" href="javascript:void(0);" onclick="menubtn()"></i></div>
+													<div class="w3-col" style="width:70%;"><input type="text" name="" placeholder="search products"></input>
+													<input type="submit" value="search"></input></div>
+													<div class="w3-col" style="width:7%;"><i class="fa fa-cart-plus fa-2x"></i></div>
+													<div class="w3-col" style="width:9%;"><a href="#"><i class="fa fa-plus fa-2x"></i></a></div>
+											</form>
+											<!--<b class="w3-xxxlarge"><i>Categories  <span class="fa fa-angle-down fa-1x"></span></i></b>
+											<i class="fa fa-cart-plus fa-3x w3-col" style="width:10%;"></i>-->
+									</div>
+									
+									<div class="w3-border"></div>
+									<!--MENU LIST-->
+									<div class="menu w3-text-blue" id="menulist">
+											<b class=""><i>Tech</i></b>
+											<br />
+											<div class="w3-border"></div>
+											
+											<b class=""><i>Fashion</i></b>
+											<br />
+											<div class="w3-border"></div>
+											
+											<b class=""><i>Education</i></b>
+											<br />
+											<div class="w3-border"></div>
+											
+											<b class=""><i>Electronics</i></b>
+											<br />
+											<div class="w3-border"></div>
+											
+											<b class=""><i>Service</i></b>
+											<br />
+											<div class="w3-border"></div>
+											
+											<b class=""><i>About</i></b>
+											<br />
+											<div class="w3-border"></div>
+									</div>
+									
+							</div>
+							
+					</div>
+			</div>
+			
+			<!--CATEGORIES-->
+			<div class="categories-container w3-center border-center">
+					<div class="categories">
+					
+							<div class="w3-row">
+										<div class="cat w3-col w3-round-xlarge w3-margin w3-padding-xxxlarge" style="width:29%;">
+													<br />
+													<br />
+													<div class=""><a href="#"><i class="fa fa-laptop fa-4x w3-text-red"></i></a></div>
+													<div class=""><a href="#"><b class=" w3-text-red">TECH.</b></a></div>
+										</div>
+										
+										<div class="cat w3-col w3-round-xlarge w3-margin" style="width:29%;">
+													<br />
+													<br />
+													<div class=""><a href="#"><i class="fa fa-television fa-4x w3-text-red"></i></a></div>
+													<div class=""><a href="#"><b class=" w3-text-red">FASHION</b></a></div>
+										</div>
+										
+										<div class="cat w3-col w3-round-xlarge w3-margin" style="width:29%;">
+													<br />
+													<br />
+													<div class=""><a href="#"><i class="fa fa-book fa-4x w3-text-red"></i></a></div>
+													<div class=""><a href="#"><b class="w3-text-red">EDUCATION</b></a></div>
+										</div>
+							</div>
+							
+							<div class="w3-row">
+										<div class="cat w3-col w3-round-xlarge w3-margin" style="width:29%;">
+													<br />
+													<br />
+													<div class=""><a href="#"><i class="fa fa-headphones fa-4x w3-text-red"></i></a></div>
+													<div class=""><a href="#"><b class="w3-text-red">ELECTRONIC</b></a></div>
+										</div>
+										
+										<div class="cat w3-col w3-round-xlarge w3-margin" style="width:29%;">
+													<br />
+													<br />
+													<div class=""><a href="#"><i class="fa fa-desktop fa-4x w3-text-red"></i></a></div>
+													<div class=""><a href="#"><b class="w3-text-red">SERVICES</b></a></div>
+										</div>
+										
+										<div class="cat w3-col w3-round-xlarge w3-margin" style="width:29%;">
+													<div class=""><a href="#"><i class="w3-text-red">...</i></a></div>
+													<div class=""><a href="#"><b class="w3-text-red">MORE</b></a></div>
+										</div>
+							</div>
+							
+					</div>
+			</div>
+			
+			
+			<br />
+			<div class="w3-border"></div>
+			<br />
+			
+			<!--ADS-->
+			<div class="ads-container border-center w3-center">
+					<div class="ads w3-round-xlarge"><b class="w3-text-black">Place Your Ads</b></div>
+			</div>
+			
+			<br />
+			<div class="w3-border"></div>
+			<br />
+			
+			
+			
+			<!--TRENDING-->
+			<!--MAIN-->
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center borders-center w3-round-xxxlarge">
+					
+								<br />
+										<b class="w3-left w3-text-black">TRENDING</b>
+								<br />
+										
+								<!--DISCLAIMER-->
+										<div class="w3-border borderlng"></div>
+										<div class="w3-center disclaimer" style="width:80%;">
+												<b class="w3-text-red"><u>WARNING :</u><i>do not make any payment before receiving product,,always meet the seller in a safe and open place</i></b>
+										</div>
+										<div class="w3-border borderlng"></div>
+										<br />
+								
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+					
+								<!--SUGGESTION-->
+								<br />
+								<div class="w3-border borderlng"></div>
+								<div class="">
+										<b class="">SUGGESTION</b>
+										<form class="w3-padding w3-center">
+													<div class="" style=""><input type="text" name="" placeholder="suggest to improve this platform" class="w3-border"></input>
+													<span><input type="submit" value="submit"></input></span></div>
+											</form>
+								</div>
+								
+					</div>
+			</div>
+			
+
+			<!--VIEWED CATEGORIZE-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<!--TECH-->
+			
+			<!--MAIN-->
+			<div class="main-container w3-center border-center w3-text-black">
+					<div class="main w3-center borders-center w3-round-xxxlarge">
+					
+								<br />
+										<b class="w3-left w3-text-black">TECH</b>
+												
+										<div class="w3-border borderlng"></div>
+												<form class="filterform">
+														<select class="filterselect w3-border-white w3-border-large w3-padding">
+																<option value="" selected>Filter</option>
+																<option value="">Recent</option>
+																<option value="">Low-High</option>
+																<option value="">High-Low</option>
+																<!--<option value="">Newest</option>
+																<option value="">Newest</option>-->
+														</select>
+												</form>
+										<div class="w3-border borderlng"></div>
+										
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+										
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+					
+								<!--SUGGESTION-->
+								<br />
+								<div class="w3-border borderlng"></div>
+								<div class="">
+										<b class="">SUGGESTION</b>
+										<form class="w3-padding w3-center">
+													<div class="" style=""><input type="text" name="" placeholder="suggest to improve this platform" class="w3-border"></input>
+													<span><input type="submit" value="submit"></input></span></div>
+											</form>
+								</div>
+								
+					</div>
+			</div>
+			
+			
+			<!--LOGIN-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			
+			<!--MAIN-->
+								<div class="w3-center"><b class="w3-text-grey">LOGIN</b></div>
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center w3-round-xxxlarge">
+					
+								<br />
+								<br />
+								
+								<form class="">
+										<b class=""><i>Email :</i></b>
+										<br />
+										<input type="email" placeholder="Enter your email"></input>
+										<br />
+										<br />
+										<b class=""><i>Password :</i></b>
+										<br />
+										<input type="password" placeholder="Enter your password"></input>
+										
+										<br />
+										<br />
+										<input type="submit" value="LOGIN" class="submit-btn w3-round-xxlarge"></input>
+										
+										<br />
+										<br />
+										<i>new member?<a href="#"><i>sign up</i></a></i>
+										<br />
+										<a href="#"><i>forgotten password</i></a>
+								</form>
+								
+					
+								<br />
+					</div>
+			</div>
+			
+
+			<!--SEARCH RESULT-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<!--MAIN-->
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center borders-center w3-round-xxxlarge">
+					
+								<br />
+										<b class="w3-left w3-text-black">Search Result</b>
+										
+										<div class="w3-border borderlng"></div>
+												<form class="filterform">
+														<select class="filterselect w3-border-white w3-border-large w3-padding">
+																<option value="" selected>Filter</option>
+																<option value="">Recent</option>
+																<option value="">Low-High</option>
+																<option value="">High-Low</option>
+																<!--<option value="">Newest</option>
+																<option value="">Newest</option>-->
+														</select>
+												</form>
+										<div class="w3-border borderlng"></div>
+										
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<br />
+										
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+					
+								<!--SUGGESTION-->
+								<br />
+								<div class="w3-border borderlng"></div>
+								<div class="">
+										<b class="">SUGGESTION</b>
+										<form class="w3-padding w3-center">
+													<div class="" style=""><input type="text" name="" placeholder="suggest to improve this platform" class="w3-border"></input>
+													<span><input type="submit" value="submit"></input></span></div>
+											</form>
+								</div>
+								
+					</div>
+			</div>
+			
+			
+			<!--SIGN UP-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			
+			<!--MAIN-->
+								<div class="w3-center"><b class="w3-text-grey">SIGN UP</b></div>
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center w3-round-xxxlarge">
+					
+								<br />
+								<br />
+								
+								<form class="">
+										<b class=""><i>Firstname :</i></b>
+										<br />
+										<input type="text" placeholder="Enter your firstname"></input>
+										<br />
+										<br />
+										<b class=""><i>Lastname :</i></b>
+										<br />
+										<input type="text" placeholder="Enter your lastname"></input>
+										<br />
+										<br />
+										<b class=""><i>Username :</i></b>
+										<br />
+										<input type="text" placeholder="Choose a username"></input>
+										<br />
+										<br />
+										<b class=""><i>Phone no. :</i></b>
+										<br />
+										<input type="number" placeholder="Enter your mobile number"></input>
+										<br />
+										<br />
+										<b class=""><i>Email :</i></b>
+										<br />
+										<input type="email" placeholder="Enter your email"></input>
+										<br />
+										<br />
+										<b class=""><i>Password :</i></b>
+										<br />
+										<input type="password" placeholder="Enter a password"></input>
+										<br />
+										<br />
+										<b class=""><i>Comfirm Password :</i></b>
+										<br />
+										<input type="password" placeholder="Comfirm your password"></input>
+										<br />
+										<br />
+										
+										<input type="submit" value="SIGN UP" class="submit-btn w3-round-xxlarge"></input>
+										
+										<br />
+										<br />
+										<i>Already a member?<a href="#"><i>login</i></a></i>
+								</form>
+								
+								
+								<br />
+					</div>
+			</div>
+			
+			
+			
+			
+			
+			<!--VIEWED PROFILE-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<!--PROFILE-->
+			<div class="categories-container w3-center border-center">
+					<div class="categories">
+					
+					
+							<div class="profile-container">
+										<img class="w3-circle w3-border-large" src="./img/sirjames.jpg" style="height:500px;"></img>
+										<!--<div class="profie"><i class="fa fa-user-o" style="height:400px;"></i></div>-->
+							</div>
+									</div>
+			</div>
+			
+			
+			<!--<br />
+			<div class="w3-border"></div>
+			<br />-->
+			<br />
+			<br />
+			<!--MAIN-->
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center borders-center w3-round-xxxlarge w3-text-black">
+					
+								<br />
+										<b class="w3-left w3-text-black"><i>SIR JAMES</i></b>
+										
+										<br />
+										<i><b class="">Location: <span class="w3-text-blue">Jos</span></b></i>
+										<br />
+										<i><b class="">Last Seen: <span class="w3-text-blue">3hrs ago</span></b></i>
+										<br />
+										<i><b class="">Number: <span class="w3-text-blue">08140480701</span></b></i>
+										
+										<br />
+										<a href="#"><b class="w3-text-red"><u>REPORT THIS PERSON</u></b></a>
+								<br />
+								
+										<div class="w3-border borderlng"></div>
+										<br />
+								
+								
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">
+										<img src="./img/project.jpg" alt="" class="product-img"></img>
+								</div>
+								
+								<!--SUGGESTION-->
+								<br />
+								<div class="w3-border borderlng"></div>
+								<div class="">
+										<b class="">SUGGESTION</b>
+										<form class="w3-padding w3-center">
+													<div class="" style=""><input type="text" name="" placeholder="suggest to improve this platform" class="w3-border"></input>
+													<span><input type="submit" value="submit"></input></span></div>
+											</form>
+								</div>
+					
+					</div>
+			</div>
+			
+			
+			
+			<!--FAVOURITE/CART-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			
+			<!--MAIN-->
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center borders-center w3-round-xxxlarge">
+					
+								<br />
+										<b class="w3-left w3-text-black">FAVOURITE</b>
+										
+										
+											<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<br />
+										
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+					
+			
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<br />
+										
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+					
+								<!--SUGGESTION-->
+								<br />
+								<div class="w3-border borderlng"></div>
+								<div class="">
+										<b class="">SUGGESTION</b>
+										<form class="w3-padding w3-center">
+													<div class="" style=""><input type="text" name="" placeholder="suggest to improve this platform" class="w3-border"></input>
+													<span><input type="submit" value="submit"></input></span></div>
+											</form>
+								</div>
+								
+					</div>
+			</div>
+			
+			
+			
+			<!--ADD PRODUCT-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			
+			<!--MAIN-->
+								<div class="w3-center"><b class="w3-text-grey">ADD PRODUCT</b></div>
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center w3-round-xxxlarge borders-center">
+					
+								<br />
+								<br />
+								
+								<form class="">
+										<b class=""><i>Name :</i></b>
+										<br />
+										<input type="text" placeholder="Enter name of product"></input>
+										<br />
+										<br />
+										<b class=""><i>Categorise :</i></b>
+										<br />
+										<select class="newproductform">
+												<option value="select">Select categorise</option>
+												<option value="tech">Tech</option>
+												<option value="fashion">Fashion</option>
+												<option value="education">Education</option>
+												<option value="electronic">Electronic</option>
+												<option value="service">Service</option>
+										</select>
+										<br />
+										<br />
+										<b class=""><i>Price :</i></b>
+										<br />
+										<input type="number" placeholder="Enter amount"></input>
+										<br />
+										<br />
+										<b class=""><i>Description :</i></b>
+										<br />
+										<textarea placeholder="Describe your product" class="newproductform"></textarea>
+										<br />
+										<b class=""><i>Img :</i></b>
+										<br />
+										<div class="w3-center w3-padding-large">
+													<input type="file" class="choosefile"></input>
+													<input type="file" class="choosefile"></input>
+													<input type="file" class="choosefile"></input>
+										</div>
+										<br />
+										<br />
+										
+										<input type="submit" value="ADD" class="submit-btn w3-round-xxlarge"></input>
+										
+										<br />
+								</form>
+								
+								
+								<br />
+					</div>
+			</div>
+			
+			<!--VIEWED PRODUCT-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			
+			
+			
+			<!--MAIN-->
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center borders-center w3-round-xxxlarge">
+					
+					
+					
+							<!--PRODUCT IMG-->
+							<br />
+							<div class="viewedproductimg-container">
+									<img src="./img/project.jpg" alt="" class="viewedproductimg"></img>
+							</div>
+							<br />
+			
+			
+			
+								<br />
+										<b class="w3-left w3-text-grey">FEATURES</b>
+										
+										<div class="w3-border borderlng"></div>
+												<b class=""><i>Name :</i></b>
+												<br />
+												<b class=""><i>Price :</i></b>
+												<br />
+												<b class=""><i>Location :</i></b>
+												<br />
+												<b class=""><i>Seller :</i></b>
+												<br />
+												<b class=""><i>Description :</i></b>
+												<br />
+												<b class=""><i>Product images :</i></b>
+												<br />
+												<b class=""><i>Reviews :</i></b>
+												
+												<!--CHAT/ADD TO FAVOURITE BTN-->
+												<br />
+												<span>
+														<button class="w3-round-large w3-text-white" style="background-color:blue;font-size:45px;">Contact Seller</button>
+														<button class="w3-round-large w3-padding w3-text-white" style="background-color:blue;font-size:45px;"><i class="fa fa-star"></i></button>
+												</span>
+												<br />
+												
+												<b class="w3-text-red"><u>REPORT PRODUCT</u></b>
+												
+												
+										<div class="w3-border borderlng"></div>
+										
+								
+								<!--WRITE REVIEW-->
+								<div class="">
+										<div class="">
+												<form class="w3-padding">
+														<input type="text" placeholder="Write a review"></input>
+														<input type="submit" value="Submit"></input>
+												</form>
+										</div>
+								</div>
+								
+										<div class="w3-border borderlng"></div>
+								
+								<!--SELLER-->
+								<div class="">
+										<div class="">
+												
+										</div>
+								</div>
+								
+								
+								<br />
+										<b class="w3-left w3-text-grey">Related</b>
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								
+								<br />
+										
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+					
+								
+								
+					</div>
+			</div>
+			
+			
+			
+			
+			<!--PROFILE-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<!--PROFILE-->
+			<div class="categories-container w3-center border-center">
+					<div class="categories">
+					
+					
+							<div class="profile-container">
+										<img class="w3-circle w3-border-large" src="./img/sirjames.jpg" style="height:500px;"></img>
+										<!--<div class="profie"><i class="fa fa-user-o" style="height:400px;"></i></div>-->
+							</div>
+									</div>
+			</div>
+			
+			<!--<br />
+			<div class="w3-border"></div>
+			<br />-->
+			<br />
+			<!--MAIN-->
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center borders-center w3-round-xxxlarge w3-text-black">
+					
+								<br />
+										<b class="w3-left w3-text-black"><i>SIR JAMES</i></b>
+										
+										<br />
+										<i><b class="">Location: <span class="w3-text-blue">Jos <a href="#"><i class="fa fa-edit"></i></a></span></b></i>
+										<br />
+										<!--<i><b class="w3-xxlarge">Last Seen: <span class="w3-text-blue">3hrs ago</span></b></i>
+										<br />-->
+										<i><b class="">Number: <span class="w3-text-blue">08140480701<span class="fa fa-edit"></span></span></b></i>
+										
+										
+										<br />
+										<br />
+										<div class="w3-border borderlng"></div>
+											<b><a href="#"><i class="">My ads <i class="w3-text-red">9</i></i></a></b>
+										<div class="w3-border borderlng"></div>
+											<b><a href="#"><i class="">Message <i class="w3-text-red">11</i></i></a></b>
+										<div class="w3-border borderlng"></div>
+											<b><a href="#"><i class="">Notifications <i class="w3-text-red">31</i></i></a></b>
+										<div class="w3-border borderlng"></div>
+										
+										
+										<br />
+										<a href="#"><b class="w3-text-red"><u>PLACE ADS</u></b></a>
+								<br />
+								
+										<div class="w3-border borderlng"></div>
+										<br />
+								
+								
+								
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								<div class="product-list w3-round-xxlarge w3-padding w3-display-container">
+											<img src="./img/project.jpg" alt="" class="product-img"></img>
+											<a><b class=""><i>Samsung X105 Smart phone with<div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">#1000</div></i></b></a>
+									</div>
+								<br />
+								
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">hgxcb cvhfd fdfcvb</div>
+								<br />
+								<div class="product-list w3-round-xxlarge">
+										<img src="./img/project.jpg" alt="" class="product-img"></img>
+								</div>
+								
+								<!--SUGGESTION-->
+								<br />
+								<div class="w3-border borderlng"></div>
+								<div class="">
+										<b class="">SUGGESTION</b>
+										<form class="w3-padding w3-center">
+													<div class="" style=""><input type="text" name="" placeholder="suggest to improve this platform" class="w3-border"></input>
+													<span><input type="submit" value="submit"></input></span></div>
+											</form>
+								</div>
+					
+					</div>
+			</div>
+			
+			
+			
+			
+			
+			<!--MESSAGE-->
+			
+			
+			
+			<!--FORGET PASSWORD-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			
+			<!--MAIN-->
+								<div class="w3-center"><b class="w3-text-grey">RESET PASSWORD</b></div>
+			<div class="main-container w3-center border-center">
+					<div class="main w3-center w3-round-xxxlarge">
+					
+								<br />
+								<br />
+								
+								<form class="">
+										<b class=""><i>Email :</i></b>
+										<br />
+										<input type="email" placeholder="Enter your email"></input>
+										<br />
+										<br />
+										
+										<input type="submit" value="RESET" class="submit-btn w3-round-xxlarge"></input>
+										
+										<br />
+								</form>
+								
+								
+								<br />
+					</div>
+			</div>
+			
+			
+			
+			
+			
+			<!--NOTIFICATION-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<!--TECH-->
+			
+			<!--MAIN-->
+			<div class="main-container w3-center border-center w3-text-black">
+					<div class="main w3-center borders-center w3-round-xxxlarge">
+					
+								<br />
+										<b class="w3-left w3-text-grey">NOTIFICATIONS</b>
+												
+								<br />
+								
+								<div class="w3-border borderlng"></div>
+										<div class=""><b><a href="#"><i class="">sir, you have one message and two missed calls from john</i></a></b></div>
+								<div class="w3-border borderlng"></div>
+										<div class=""><b><a href="#"><i class="">sir, you have one message and two missed calls from john</i></a></b></div>
+								<div class="w3-border borderlng"></div>
+										<div class=""><b><a href="#"><i class="">sir, you have one message and two missed calls from john</i></a></b></div>
+								<div class="w3-border borderlng"></div>
+										<div class=""><b><a href="#"><i class="">sir, you have one message and two missed calls from john</i></a></b></div>
+								<div class="w3-border borderlng"></div>
+										<div class=""><b><a href="#"><i class="">sir, you have one message and two missed calls from john</i></a></b></div>
+								<div class="w3-border borderlng"></div>
+										<div class=""><b><a href="#"><i class="">sir, you have one message and two missed calls from john</i></a></b></div>
+								<div class="w3-border borderlng"></div>
+										<div class=""><b><a href="#"><i class="">sir, you have one message and two missed calls from john</i></a></b></div>
+								<div class="w3-border borderlng"></div>
+										<div class=""><b><a href="#"><i class="">sir, you have one message and two missed calls from john</i></a></b></div>
+								<div class="w3-border borderlng"></div>
+										<div class=""><b><a href="#"><i class="">sir, you have one message and two missed calls from john</i></a></b></div>
+								<div class="w3-border borderlng"></div>
+													
+								<br />
+								<br />
+								
+					</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			<!--FOOTER-->
+			<div class="footer-container w3-center">
+					<div class="footer"><b>&copy polyshop</b></div>
+			</div>
+
+
+
+
+		<script>
+					var x=document.getElementById("menulist");
+					
+						function menubtn(){
+							if(x.style.display=="none"){
+										x.style.display="block";
+								}else{
+									x.style.display="none";
+								}
+						}
+		</script>
+
+
+</body>
+</html>
