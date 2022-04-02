@@ -86,6 +86,10 @@
                 box-sizing: border-box;
             }
     
+                body{
+                    font-size:150%;
+                }
+
             @media (orientation:landscape){
                 body{
                     font-size:150%;
@@ -182,7 +186,7 @@
                     
                             <!--HEADER NAME-->
                             <div class="">
-                                <a href="{{url('/')}}" style="color:white;"><b style="font-size:200%">@php echo strtoupper(config('app.name')) @endphp</b></a>
+                                <a href="{{url('/')}}" style="color:white;"><b style="font-size:500%">@php echo strtoupper(config('app.name')) @endphp</b></a>
                             </div>
                             <!--MENU-->
                             <div class="menu-container">
