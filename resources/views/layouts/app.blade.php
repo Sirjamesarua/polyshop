@@ -87,7 +87,7 @@
             }
     
                 body{
-                    font-size:150%;
+                    font-size:70%;
                 }
 
             @media (orientation:landscape){
