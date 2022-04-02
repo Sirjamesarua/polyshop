@@ -215,6 +215,9 @@
                                     <div class="w3-border"></div>
                                     <!--MENU LIST-->
                                     <div class="menu w3-text-blue" id="menulist">
+                                            <b class=""><i><a href="/" class="w3-text-blue">Home</a></i></b>
+                                            <br />
+                                            <div class="w3-border"></div>
                                             <b class=""><i><a href="/home" class="w3-text-blue">Profile</a></i></b>
                                             <br />
                                             <div class="w3-border"></div>
