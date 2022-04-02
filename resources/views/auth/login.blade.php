@@ -12,6 +12,7 @@
                     
                                 <br />
                                 <br />
+                                <br />
                                 
                                 <form method="POST" action="{{ route('login') }}">
                                 @csrf
@@ -57,6 +58,8 @@
                                 </form>
                                 
                     
+                                <br />
+                                <br />
                                 <br />
                     </div>
             </div>

@@ -191,7 +191,7 @@
                                 <a href="{{url('/')}}" style="color:white; text-decoration: none;"><b style="font-size:500%;">@php echo strtoupper(config('app.name')) @endphp</b></a>
                             </div>
                             <!--MENU-->
-                            <div class="menu-container" style="font-size: 150%;">
+                            <div class="menu-container">
                             
                                     <div class="w3-border"></div>
                                     <div class="">
