@@ -8,7 +8,7 @@
 
 
             <!--MAIN-->
-                                <div class="w3-center"><b class="w3-text-grey">SIGN UP</b></div>
+                                <div class="w3-center"><b class="w3-text-grey" style="font-size: 250%;">SIGN UP</b></div>
             <div class="main-container w3-center border-center">
                     <div class="main w3-center w3-round-xxxlarge">
                     
