@@ -3,6 +3,9 @@
 @section('content')
 
 
+<br />
+<br />
+
 
             <!--MAIN-->
                                 <div class="w3-center"><b class="w3-text-grey">SIGN UP</b></div>
@@ -11,6 +14,8 @@
                     
                                 <br />
                                 <br />
+                                <br />
+                                
                                 
                                 <form method="POST" action="{{ route('register') }}" enctype="multipart/Form-data">
                                     @csrf

@@ -214,7 +214,7 @@
                                      
                                     <div class="w3-border"></div>
                                     <!--MENU LIST-->
-                                    <div class="menu w3-text-blue" id="menulist">
+                                    <div class="menu w3-text-blue" id="menulist" style="font-size: 135%;">
                                             <b class=""><i><a href="/" class="w3-text-blue">Home</a></i></b>
                                             <br />
                                             <div class="w3-border"></div>
