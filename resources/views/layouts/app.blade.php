@@ -188,7 +188,7 @@
                     
                             <!--HEADER NAME-->
                             <div class="">
-                                <a href="{{url('/')}}" style="color:white; text-decoration: none;"><b style="font-size:500%;">@php echo strtoupper(config('app.name')) @endphp</b></a>
+                                <a href="/" style="color:white; text-decoration: none;"><b style="font-size:500%;">@php echo strtoupper(config('app.name')) @endphp</b></a>
                             </div>
                             <!--MENU-->
                             <div class="menu-container">
