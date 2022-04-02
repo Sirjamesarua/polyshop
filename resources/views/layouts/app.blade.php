@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head> 
-    <title>{{config('app.name','Josmarket')}}</title>
+    <title>{{config('app.name','PolyStore')}}</title>
     <script src="./js/script1.js"></script>
       <link rel = "stylesheet" href = "https://www.w3schools.com/lib/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css" ></link>
@@ -182,7 +182,7 @@
                     
                             <!--HEADER NAME-->
                             <div class="">
-                                <a href="/" style="color:white;"><b style="font-size:500%">JOSMARKET</b></a>
+                                <a href="{{url('/')}}" style="color:white;"><b style="font-size:500%">@php echo strtoupper(config('app.name')) @endphp</b></a>
                             </div>
                             <!--MENU-->
                             <div class="menu-container">
