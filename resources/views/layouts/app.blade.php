@@ -4,6 +4,8 @@
 <head> 
     <title>{{config('app.name','Josmarket')}}</title>
     <script src="./js/script1.js"></script>
+      <link rel = "stylesheet" href = "https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css" ></link>
     <link rel="stylesheet" href="{{asset('w3.css')}}" />
     <link rel="stylesheet" href="{{asset('bootstrap.css')}}" />
     <link rel="stylesheet" href="https://font.googleapis.com/css?family=Roboto"></link>
@@ -11,6 +13,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     
     <style>
+.w3-border-small{border:1px solid #ccc!important}
+.w3-margin-large{margin:44px!important}
+.w3-padding-xxlarge{padding:24px 40px!important}
+.w3-padding-xlarge{padding:24px 36px!important}
+.w3-transparent-black{color:#fff!important;background-color:rgba(0,0,0,0.7);!important}
+.w3-border-top-round{border-top:4px solid;border-radius:80px #ccc!important}
+.w3-round-jumbo{border-radius:80px}
+.w3-topbar-small{border-top:2px solid #ccc!important}
+.w3-bottombar-small{border-bottom:2px solid #ccc!important}
+.w3-topbar-medium{border-top:4px solid #ccc!important}
+.w3-bottombar-medium{border-bottom:4px solid #ccc!important}
+.w3-round-xxxlarge{border-radius:60px}
+.w3-border-xlarge{border:8px solid #ccc!important}
+.w3-border-large{border:4px solid #ccc!important}
+.w3-border-top-large{border-top:4px solid #ccc!important}
+.w3-border-top-xlarge{border-top:6px solid #ccc!important}
+.w3-xjumbo{font-size:80px!important}
             /*MY STYLE*/
             .border-center{
                 display:flex;
