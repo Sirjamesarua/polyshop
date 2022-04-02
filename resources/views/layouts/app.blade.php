@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="{{asset('w3.css')}}" />
     <link rel="stylesheet" href="{{asset('bootstrap.css')}}" />
     <link rel="stylesheet" href="https://font.googleapis.com/css?family=Roboto"></link>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" ></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" ></link><meta charset="utf-8">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     
     <style>
@@ -186,7 +188,7 @@
                     
                             <!--HEADER NAME-->
                             <div class="">
-                                <a href="{{url('/')}}" style="color:white;"><b style="font-size:500%"><font face="brush-script">@php echo strtoupper(config('app.name')) @endphp</font></b></a>
+                                <a href="{{url('/')}}" style="color:white; text-decoration: none;"><b style="font-size:500%;">@php echo strtoupper(config('app.name')) @endphp</b></a>
                             </div>
                             <!--MENU-->
                             <div class="menu-container">
