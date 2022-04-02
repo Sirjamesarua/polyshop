@@ -92,10 +92,6 @@
                     font-size:70%;
                 }
 
-                .main-body{
-                    font-size: 100%;
-                }
-
             @media (orientation:landscape){
                 body{
                     font-size:150%;
@@ -256,10 +252,7 @@
                     </div>
             </div>
 
-            <div class="main-body">
                 @yield('content')
-            </div>
-           
             
             <!--FOOTER-->
             <div class="footer-container w3-center">

@@ -2,8 +2,11 @@
     @section('content')
 
 
+<br />
+<br />
+
             <!--MAIN-->
-                                <div class="w3-center"><b class="w3-text-grey">{{ __('Login') }}</b></div>
+                                <div class="w3-center"><b class="w3-text-grey" style="font-size: 250%;">{{ __('Login') }}</b></div><br />
             <div class="main-container w3-center border-center">
                     <div class="main w3-center w3-round-xxxlarge">
                     
