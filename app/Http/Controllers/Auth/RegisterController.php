@@ -75,7 +75,8 @@ class RegisterController extends Controller
             'location' => $data['location'],
             'department' => $data['department'],
             'password' => Hash::make($data['password']),
-            //'profile_image'=>null(),
+            //$table->string('profile_image')->default('/storage/avatars/defaultavatar.png')
+            'profile_image'=>"defaultpix.jpg",
             
         ]);
     }
