@@ -137,10 +137,16 @@
             /*ADS*/
             .ads{
                 width:90%;
-                height:250px;
+                height:150px;
                 background-color:white;
             }
             
+            @media (orientation:landscape){
+                .ads{
+                    height:250px;
+                }
+            }
+
             /*MAIN*/
             .main{
                   color:#48006F;

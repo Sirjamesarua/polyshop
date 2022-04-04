@@ -72,7 +72,7 @@
             <!--TRENDING-->
             <!--MAIN-->
             <div class="main-container w3-center border-center">
-                    <div class="main w3-center borders-center w3-round-xxxlarge">
+                    <div class="main w3-center borders-center w3-round-xxxlarge" style="font-size: 150%;>
                     
                                 <br />
                                         <b class="w3-left w3-text-black">TRENDING</b>
@@ -101,6 +101,8 @@
                                                 </div>
                                             <br />
                                     @endforeach
+                                @else
+                                    <div>no product yet</div>
                                 @endif
                                 
 
