@@ -45,7 +45,7 @@
                                                             <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">&#8358;{{$menu->price}}</div></b></a>
                                                 </div>
                                             <br />
-                                    @
+                                    @endforeach
                                 @else
                                     <div>
                                         <br />
