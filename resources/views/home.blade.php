@@ -21,7 +21,7 @@
                     
                             <div class="profile-container">
 
-                                    <img src="/storage/profilepix/{{ Auth::user()->profile_image }}" class="w3-circle w3-border-large" style="height:200px;" id=""></img>
+                                    <img src="/storage/profilepix/{{ Auth::user()->profile_image }}" class="w3-circle w3-border-large" style="height:200px; width:250px" id=""></img>
                                     <br />
                                     <br />
 
