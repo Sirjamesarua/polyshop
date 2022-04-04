@@ -41,13 +41,17 @@
                                                 <strong>{{ $message }}</strong>
                                             </span>
                                         @enderror
-
+ 
 
                                         <br />
                                         <br />
                                         <b class=""><i>Location :</i></b>
                                         <br />
-                                        <input type="text" placeholder="Enter your location" name="location" class="@error('location') is-invalid @enderror"  required></input>
+                                        <select name="location" class="@error('location') is-invalid @enderror"  required>
+                                            <option value="main">Main Campus</option>
+                                            <option value="jos">Jos Campus</option>
+                                        </select>
+                                        <!--<input type="text" placeholder="Enter your location" name="location" class="@error('location') is-invalid @enderror"  required></input>-->
 
                                         @error('location')
                                             <span class="invalid-feedback" role="alert">
