@@ -17,7 +17,7 @@
     <style>
 .w3-border-small{border:1px solid #ccc!important}
 .w3-margin-large{margin:44px!important}
-.w3-margin-small{margin:8px!important}
+.w3-margin-small{margin:4px!important}
 .w3-padding-xxlarge{padding:24px 40px!important}
 .w3-padding-xlarge{padding:24px 36px!important}
 .w3-transparent-black{color:#fff!important;background-color:rgba(0,0,0,0.7);!important}
