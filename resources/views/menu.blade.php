@@ -54,7 +54,7 @@
                                         <br />
                                         <br />
                                         <br />
-                                        <center><b><i>NO PRODUCT IN @php echo strtoupper($menutitle); @endphp YET</i></b></center>
+                                        <center><b style="font-size: 120%;"><i>NO PRODUCT IN @php echo strtoupper($menutitle); @endphp YET</i></b></center>
                                         <br />
                                         <br />
                                         <br />
