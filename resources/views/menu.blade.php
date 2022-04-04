@@ -11,7 +11,7 @@
 			
 			<!--MAIN-->
 			<div class="main-container w3-center border-center w3-text-black">
-					<div class="main w3-center borders-center w3-round-xxxlarge">
+					<div class="main w3-center borders-center w3-round-xxxlarge" style="font-size: 115%;">
 					
 								<br />
 										<b class="w3-left w3-text-black">@php echo strtoupper($menutitle); @endphp</b>
@@ -45,7 +45,23 @@
                                                             <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">&#8358;{{$menu->price}}</div></b></a>
                                                 </div>
                                             <br />
-                                    @endforeach
+                                    @
+                                @else
+                                    <div>
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <center><b><i>NO PRODUCT IN {{$menu->name}} YET</i></b></center>
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                    </div>
                                 @endif
                                 
 

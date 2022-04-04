@@ -60,7 +60,7 @@
             
             <!--ADS-->
             <div class="ads-container border-center w3-center">
-                    <div class="ads w3-round-xlarge"><center><b class="w3-text-black">Place Your Ads</b></center></div>
+                    <div class="ads w3-round-xlarge"><b class="w3-text-black">Place Your Ads</b></div>
             </div>
             
             <br />
