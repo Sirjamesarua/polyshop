@@ -36,7 +36,7 @@
 
                         <br />
                         <br />
-                        <input type="submit" value="Send Password Reset Link" class="submit-btn w3-round-xxlarge"></input>
+                        <input type="submit" value="Send Reset Link" class="submit-btn w3-round-xxlarge"></input>
                         
                 </form>
                             

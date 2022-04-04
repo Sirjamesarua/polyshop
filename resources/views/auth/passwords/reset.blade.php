@@ -35,7 +35,7 @@
                             <b class=""><i>{{ __('Password') }} :</i></b>
                             <br />
 
-                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" style="width:60%">
+                    <center><input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" style="width:60%"></center>
 
                     @error('password')
                         <span class="invalid-feedback" role="alert">
