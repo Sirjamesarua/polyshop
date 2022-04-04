@@ -257,7 +257,7 @@
             <!--FOOTER-->
             <br />
             <div class="footer-container w3-center">
-                    <div class="footer" style="font-size: 180%;"><b>&copy polyshop</b></div>
+                    <div class="footer" style="font-size: 180%;"><b>&copy polystore</b></div>
             </div>
 
 
