@@ -47,7 +47,7 @@
                                         <br />
                                         <b class=""><i>Location :</i></b>
                                         <br />
-                                        <select name="location" class="@error('location') is-invalid @enderror"  required>
+                                        <select name="location" class="@error('location') is-invalid @enderror" style="width:36%;" required>
                                             <option value="main">Main Campus</option>
                                             <option value="jos">Jos Campus</option>
                                         </select>
