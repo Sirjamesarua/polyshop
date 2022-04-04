@@ -60,6 +60,19 @@
                                         @enderror
 
 
+                                        <br />
+                                        <br />
+                                        <b class=""><i>Department :</i></b>
+                                        <br />
+                                        <input type="text" placeholder="Enter your department" name="department" class="@error('department') is-invalid @enderror"  required></input>
+
+                                        @error('department')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
+
+
 
                                         <br />
                                         <br />
