@@ -3,6 +3,7 @@
             <!--CATEGORIES-->
             <div class="categories-container w3-center border-center">
                     <div class="categories">
+                        <br />
                     
                             <div class="w3-row">
                                         <div class="cat w3-col w3-round-xlarge w3-margin-small w3-padding-xxxlarge" style="width:29%;">
@@ -27,6 +28,7 @@
                                         </div>
                             </div>
                             
+                            <br />
                             <div class="w3-row">
                                         <div class="cat w3-col w3-round-xlarge w3-margin-small" style="width:29%;">
                                                     <br />
