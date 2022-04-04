@@ -7,7 +7,11 @@
 			<!--VIEWED CATEGORIZE-->
 			<br />
 			<br />
-			<!--TECH-->
+
+			<!--BACK BTN-->
+            <div class=""><span class="fa fa-arrow-circle-left"></span></div>
+
+            <br />
 			
 			<!--MAIN-->
 			<div class="main-container w3-center border-center w3-text-black">
