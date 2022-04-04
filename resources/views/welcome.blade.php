@@ -6,21 +6,21 @@
                         <br />
                     
                             <div class="w3-row">
-                                        <div class="cat w3-col w3-round-xlarge w3-margin-small w3-padding-xxxlarge" style="width:29%;">
+                                        <div class="cat w3-col w3-round-xlarge w3-padding-xxxlarge" style="width:29%;">
                                                     <br />
                                                     <br />
                                                     <div class=""><a href="/tech/menu"><i class="fa fa-laptop fa-4x w3-text-red"></i></div>
                                                     <div class=""><b class=" w3-text-red">TECH.</b></a></div>
                                         </div>
                                         
-                                        <div class="cat w3-col w3-round-xlarge w3-margin-small" style="width:29%;">
+                                        <div class="cat w3-col w3-round-xlarge" style="width:29%;">
                                                     <br />
                                                     <br />
                                                     <div class=""><a href="/fashion/menu"><i class="fa fa-television fa-4x w3-text-red"></i></div>
                                                     <div class=""><b class=" w3-text-red">FASHION</b></a></div>
                                         </div>
                                         
-                                        <div class="cat w3-col w3-round-xlarge w3-margin-small" style="width:29%;">
+                                        <div class="cat w3-col w3-round-xlarge" style="width:29%;">
                                                     <br />
                                                     <br />
                                                     <div class=""><a href="/education/menu"><i class="fa fa-book fa-4x w3-text-red"></i></div>
@@ -30,21 +30,21 @@
                             
                             <br />
                             <div class="w3-row">
-                                        <div class="cat w3-col w3-round-xlarge w3-margin-small" style="width:29%;">
+                                        <div class="cat w3-col w3-round-xlarge" style="width:29%;">
                                                     <br />
                                                     <br />
                                                     <div class=""><a href="/electronic/menu"><i class="fa fa-headphones fa-4x w3-text-red"></i></div>
                                                     <div class=""><b class="w3-text-red">ELECTRONIC</b></a></div>
                                         </div>
                                         
-                                        <div class="cat w3-col w3-round-xlarge w3-margin-small" style="width:29%;">
+                                        <div class="cat w3-col w3-round-xlarge" style="width:29%;">
                                                     <br />
                                                     <br />
                                                     <div class=""><a href="/service/menu"><i class="fa fa-desktop fa-4x w3-text-red"></i></div>
                                                     <div class=""><b class="w3-text-red">SERVICES</b></a></div>
                                         </div>
                                         
-                                        <div class="cat w3-col w3-round-xlarge w3-margin-small" style="width:29%;">
+                                        <div class="cat w3-col w3-round-xlarge" style="width:29%;">
                                                     <div class=""><a href="/others/menu"><i class="w3-text-red" style="font-size: 300%;">...</i></div>
                                                     <div class=""><b class="w3-text-red">OTHERS</b></a></div>
                                         </div>
