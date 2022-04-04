@@ -21,7 +21,7 @@
                     
                             <div class="profile-container">
 
-                                    <img src="/storage/profilepix/{{ Auth::user()->profile_image }}" class="w3-circle w3-border-large" style="height:200px; width:250px" id=""></img>
+                                    <img src="/storage/profilepix/{{ Auth::user()->profile_image }}" class="w3-circle w3-border-large" style="height:280px; width:250px" id=""></img>
                                     <br />
                                     <br />
 
@@ -50,7 +50,7 @@
                                         <b class="w3-left w3-text-black"><i>@php echo strtoupper($user->name); @endphp</i></b>
                                         
                                         <br />
-                                        <i><b class="">Location: <span class="w3-text-blue">{{$user->location}} <a href="#"><i class="fa fa-edit"></i></a></span></b></i>
+                                        <i><b class="">Location: <span class="w3-text-blue">{{$user->location}} Campus<a href="#"><i class="fa fa-edit"></i></a></span></b></i>
                                         <br />
                                         <!--<i><b class="w3-xxlarge">Last Seen: <span class="w3-text-blue">3hrs ago</span></b></i>
                                         <br />-->
