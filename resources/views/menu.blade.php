@@ -9,7 +9,7 @@
 			<br />
 
 			<!--BACK BTN-->
-            <div class=""><span class="fa fa-arrow-circle-left"></span></div>
+            <div class=""><center><span class="fa fa-arrow-circle-left fa-3x"></span></center></div>
 
             <br />
 			
