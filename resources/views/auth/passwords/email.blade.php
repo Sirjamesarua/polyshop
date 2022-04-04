@@ -25,7 +25,7 @@
                         <b class=""><i>{{ __('E-Mail Address') }}:</i></b>
                         <br />
 
-                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus style="width:60%">
+                        <center><input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus style="width:60%"></center>
 
                         @error('email')
                             <span class="invalid-feedback" role="alert">
