@@ -14,7 +14,7 @@
             <br />
             <br />
             <!--BACK BTN-->
-            <div class="w3-margin"><center><a href="{{ url()->previous() }}" class="btn btn-default" style="color:blue; font-size: 115%;"><span class="fa fa-arrow-left"></span><u>Back</u></a></center></div>
+            <div class="w3-margin"><center><a href="{{ url()->previous() }}" class="btn btn-default" style="color:blue; font-size: 145%;"><span class="fa fa-arrow-left"></span><u>Back</u></a></center></div>
 
             <!--PROFILE-->
             <div class="categories-container w3-center border-center">
