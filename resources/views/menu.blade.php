@@ -12,7 +12,7 @@
 			
 			<!--MAIN-->
 			<div class="main-container w3-center border-center w3-text-black">
-					<div class="main w3-center borders-center w3-round-xxxlarge" style="font-size: 115%;">
+					<div class="main w3-center borders-center w3-round-xxxlarge" style="font-size: 150%;">
 					
 								<br />
 										<b class="w3-left w3-text-black">@php echo strtoupper($menutitle); @endphp</b>

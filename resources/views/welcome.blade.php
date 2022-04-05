@@ -10,7 +10,7 @@
                                                     <br />
                                                     <br />
                                                     <div class=""><a href="/tech/menu"><i class="fa fa-laptop fa-4x w3-text-red"></i></div>
-                                                    <div class=""><b class=" w3-text-red">TECH.</b></a></div>
+                                                    <div class=""><b class=" w3-text-red">PHONE</b></a></div>
                                         </div>
                                         
                                         <div class="cat w3-col w3-round-xlarge" style="width:29%;">

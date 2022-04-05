@@ -15,9 +15,11 @@
 			<br />
 
 			<!--MAIN-->
-								<div class="w3-center"><b class="w3-text-grey">ADD PRODUCT</b></div>
+								<div class="w3-center"><b class="w3-text-grey" style="font-size: 200%;">ADD PRODUCT</b></div>
+								<br />
+
 			<div class="main-container w3-center border-center">
-					<div class="main w3-center w3-round-xxxlarge borders-center">
+					<div class="main w3-center w3-round-xxxlarge borders-center" style="font-size: 150%;">
 					
 								<br />
 								<br />
@@ -35,7 +37,7 @@
 										<br />
 										<select name="category" class="newproductform" style="width:65%;" required>
 												<option value="">Select category</option>
-												<option value="tech">Tech</option>
+												<option value="phone">Phone</option>
 												<option value="fashion">Fashion</option>
 												<option value="education">Education</option>
 												<option value="electronic">Electronic</option>
