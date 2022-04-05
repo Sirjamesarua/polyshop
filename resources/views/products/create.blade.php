@@ -28,7 +28,7 @@
 								<form class="" method="POST" action="{{route('products.store')}}" enctype="multipart/Form-data">
 									{{method_Field('POST')}}
 									@csrf
-										<b class=""><i>Name :<sub class="w3-text-grey">short description of the product</sub></i></b>
+										<b class=""><i>Name :<br /><sub class="w3-text-grey">short description of the product</sub></i></b>
 										<br />
 										<input type="text" name="name" placeholder="Enter name of product" style="width:65%;" required></input>
 										<br />
