@@ -7,7 +7,7 @@
 			<!--VIEWED CATEGORIZE-->
 
 			<!--BACK BTN-->
-            <div class="w3-margin"><center><a href="{{ url()->previous() }}" class="btn btn-default" style="color:blue;"><span class="fa fa-arrow-left"></span>Back</a></center></div>
+            <div class="w3-margin"><center><u><a href="{{ url()->previous() }}" class="btn btn-default" style="color:blue; font-size: 115%;"><span class="fa fa-arrow-left"></span>Back</a></u></center></div>
 
 			
 			<!--MAIN-->
