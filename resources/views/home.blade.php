@@ -18,7 +18,7 @@
 
             <!--PROFILE-->
             <div class="categories-container w3-center border-center">
-                    <div class="categories">
+                    <div class="categories" style="font-size: 130%;">
                     
                     
                             <div class="profile-container">
@@ -46,7 +46,7 @@
             <br />
             <!--MAIN-->
             <div class="main-container w3-center border-center">
-                    <div class="main w3-center borders-center w3-round-xxxlarge w3-text-black">
+                    <div class="main w3-center borders-center w3-round-xxxlarge w3-text-black" style="font-size: 150%;">
 
                                 <br />
                                         <b class="w3-left w3-text-black"><i>@php echo strtoupper($user->name); @endphp</i></b>
