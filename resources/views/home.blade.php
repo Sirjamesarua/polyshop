@@ -13,7 +13,6 @@
             <!--PROFILE-->
             <br />
             <br />
-            <br />
             <!--BACK BTN-->
             <div class="w3-margin"><center><a href="{{ url()->previous() }}" class="btn btn-default" style="color:blue; font-size: 115%;"><span class="fa fa-arrow-left"></span><u>Back</u></a></center></div>
 
