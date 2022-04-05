@@ -258,6 +258,10 @@
                                             <b class=""><i><a href="/service/menu" class="w3-text-blue">Service</a></i></b>
                                             <br />
                                             <div class="w3-border"></div>
+
+                                            <b class=""><i><a href="/others/menu" class="w3-text-blue">Others</a></i></b>
+                                            <br />
+                                            <div class="w3-border"></div>
                                             
                                             <b class=""><i><a href="#" class="w3-text-blue">About</a></i></b>
                                             <br />
