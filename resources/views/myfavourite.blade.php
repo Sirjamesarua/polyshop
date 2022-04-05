@@ -17,7 +17,7 @@
 					<div class="main w3-center borders-center w3-round-xxxlarge">
 					
 								<br />
-										<b class="w3-left w3-text-black">FAVOURITE</b>
+										<b class="w3-left w3-text-black" style="font-size: 180%;">FAVOURITE</b>
 										
 										
 											<br />
