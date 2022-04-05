@@ -7,9 +7,8 @@
 			<!--VIEWED CATEGORIZE-->
 
 			<!--BACK BTN-->
-            <div class="w3-margin"><span class="fa fa-arrow-left fa-3x"></span></div>
+            <div class="w3-margin"><center><span class="fa fa-arrow-left fa-2x"></span></center></div>
 
-            <br />
 			
 			<!--MAIN-->
 			<div class="main-container w3-center border-center w3-text-black">
