@@ -5,11 +5,9 @@
 
 
 			<!--VIEWED CATEGORIZE-->
-			<br />
-			<br />
 
 			<!--BACK BTN-->
-            <div class=""><span class="fa fa-angle-left fa-3x"></span>Back</div>
+            <div class="w3-margin"><span class="fa fa-arrow-left fa-3x"></span></div>
 
             <br />
 			
@@ -67,6 +65,8 @@
                                         <br />
                                     </div>
                                 @endif
-                                
+                               
+                    </div>
+            </div> 
 
     @endsection
