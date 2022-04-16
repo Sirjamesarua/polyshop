@@ -19,7 +19,7 @@
 					
 					
 							<div class="profile-container">
-										<img class="w3-circle w3-border-large" src="/storage/profilepix/{{$profile->profile_image}}" style="height:500px;"></img>
+										<img class="w3-circle w3-border-large" src="/storage/profilepix/{{$profile->profile_image}}" style="height:250px; width:250px" ></img>
 										<!--<div class="profie"><i class="fa fa-user-o" style="height:400px;"></i></div>-->
 							</div>
 									</div>
@@ -40,9 +40,9 @@
 										<b class="w3-left w3-text-black"><i>@php echo strtoupper($profile->name); @endphp</i></b>
 										
 										<br />
-										<i><b class="">Location: <span class="w3-text-blue">{{$profile->location}}</span></b></i>
+										<i><b class="">Location: <span class="w3-text-blue">{{$profile->location}} Campus</span></b></i>
 										<br />
-										<i><b class="">Last Seen: <span class="w3-text-blue">3hrs ago</span></b></i>
+										<i><b class="">Department: <span class="w3-text-blue">{{$profile->department}}</span></b></i>
 										<br />
 										<i><b class="">Number: <span class="w3-text-blue">234{{$profile->phonenumber}}</span></b></i>
 										
@@ -64,7 +64,7 @@
                                                         <br />
                                                         <a href="/products/{{$otherstopic->id}}" style="text-decoration: none;"><b class=""><i class="product-title">{{$otherstopic->name}}</i>
                                                             <br /><i style="">{{$otherstopic->description}}</i>
-                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">&#8358;{{$otherstopic->price}}</div></b></a>
+                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge"><b style="background-color: #dfdfdf;" class="w3-round-xlarge">&#8358;{{$otherstopic->price}}</b></div></b></a>
                                                 </div>
                                             <br />
                                     @endforeach

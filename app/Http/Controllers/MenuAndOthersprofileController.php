@@ -26,9 +26,13 @@ class MenuAndOthersprofileController extends Controller
     }
 
     public function menu($menu){
-    	$menutitle=$menu;
-		$menus=DB::table('product')->where('category',$menu)->get();
-		return view('menu')->with('menus',$menus)->with('menutitle',$menutitle);
+        if(preg_match("/(\bphone\b|\bfashion\b|\beducation\b|\belectronic\b|\bservice\b|\bothers\b)/", $menu)){
+        	$menutitle=$menu;
+    		$menus=DB::table('product')->where('category',$menu)->get();
+    		return view('menu')->with('menus',$menus)->with('menutitle',$menutitle);
+        }else{
+            return Redirect('/');
+        }
     }
 
     public function othersprofile($authur_id,$username){

@@ -43,7 +43,7 @@
                                                         <br />
                                                         <a href="/products/{{$menu->id}}" style="text-decoration: none;"><b class=""><i class="product-title">{{$menu->name}}</i>
                                                             <br /><i style="">{{$menu->description}}</i>
-                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">&#8358;{{$menu->price}}</div></b></a>
+                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge"><b style="background-color: #dfdfdf;" class="w3-round-xlarge">&#8358;{{$menu->price}}</b></div></b></a>
                                                 </div>
                                             <br />
                                     @endforeach

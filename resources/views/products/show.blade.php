@@ -34,7 +34,7 @@
 												<br />
 												<b class=""><i>Price : <span class="w3-text-grey">{{$product->price}}</span></i></b>
 												<br />
-												<b class=""><i>Location : <span class="w3-text-grey">{{$user->location}}</span></i></b>
+												<b class=""><i>Location : <span class="w3-text-grey">{{$user->location}} Campus</span></i></b>
 												<br />
 												<b class=""><i>Seller : <a href="/{{$user->id}}/{{$user->name}}/profile" class="w3-text-blue">{{$user->name}}</a></i></b>
 												<br />
@@ -151,7 +151,7 @@
                                                         <br />
                                                         <a href="/products/{{$relatedproduct->id}}" style="text-decoration: none;"><b class=""><i class="product-title">{{$relatedproduct->name}}</i>
                                                             <br /><i style="">{{$relatedproduct->description}}</i>
-                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">&#8358;{{$relatedproduct->price}}</div></b></a>
+                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge"><b style="background-color: #dfdfdf;" class="w3-round-xlarge">&#8358;{{$relatedproduct->price}}</b></div></b></a>
                                                 </div>
                                             <br />
                                     @endforeach

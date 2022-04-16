@@ -9,7 +9,7 @@
                                         <div class="cat w3-col w3-round-xlarge w3-padding-xxxlarge" style="width:29%;">
                                                     <br />
                                                     <br />
-                                                    <div class=""><a href="/tech/menu"><i class="fa fa-laptop fa-4x w3-text-red"></i></div>
+                                                    <div class=""><a href="/phone/menu"><i class="fa fa-phone fa-4x w3-text-red"></i></div>
                                                     <div class=""><b class=" w3-text-red">PHONE</b></a></div>
                                         </div>
                                         
@@ -97,7 +97,7 @@
                                                         <br />
                                                         <a href="/products/{{$product->id}}" style="text-decoration: none;"><b class=""><i class="product-title">{{$product->name}}</i>
                                                             <br /><i style="">{{$product->description}}</i>
-                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">&#8358;{{$product->price}}</div></b></a>
+                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge"><b style="background-color: #dfdfdf;" class="w3-round-xlarge"> &#8358;{{$product->price}}</b></div></b></a>
                                                 </div>
                                             <br />
                                     @endforeach

@@ -172,6 +172,14 @@
                 width:320px;
                 float:left;
             }
+
+            @media screen and (orientation:portrait){
+                .product-img{
+                    height:166px;
+                    width:50%;
+                }
+
+            }
             
             .price-tag{
                 display:flex;
@@ -239,7 +247,7 @@
                                             <br />
                                             <div class="w3-border"></div>
                                             
-                                            <b class=""><i><a href="/tech/menu" class="w3-text-blue">Phone</a></i></b>
+                                            <b class=""><i><a href="/phone/menu" class="w3-text-blue">Phone</a></i></b>
                                             <br />
                                             <div class="w3-border"></div>
                                             

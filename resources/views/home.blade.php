@@ -54,6 +54,10 @@
                                         <br />
                                         <i><b class="">Location: <span class="w3-text-blue">{{$user->location}} Campus<a href="#"><i class="fa fa-edit"></i></a></span></b></i>
                                         <br />
+
+
+                                        <i><b class="">Department: <span class="w3-text-blue">{{$user->department}}<a href="#"><i class="fa fa-edit"></i></a></span></b></i>
+                                        <br />
                                         <!--<i><b class="w3-xxlarge">Last Seen: <span class="w3-text-blue">3hrs ago</span></b></i>
                                         <br />-->
                                         <i><b class="">Number: <span class="w3-text-blue">234{{$user->phonenumber}}<span class="fa fa-edit"></span></span></b></i>
@@ -91,7 +95,7 @@
                                                         <br />
                                                         <a href="/products/{{$product->id}}" style="text-decoration: none;"><b class=""><i class="product-title">{{$product->name}}</i>
                                                             <br /><i style="">{{$product->description}}</i>
-                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge">&#8358;{{$product->price}}</div></b></a>
+                                                            <div class="w3-text-red price-tag w3-display-bottomright w3-padding-xxlarge"><b style="background-color: #dfdfdf;" class="w3-round-xlarge">&#8358;{{$product->price}}</b></div></b></a>
 
                                                             <div class="">
                                                                 <form action="/products/{{$product->id}}" class="" method="POST">
@@ -119,6 +123,7 @@
                                                     <span><input type="submit" value="submit"></input></span></div>
                                             </form>
                                 </div>
+                                <br />
                     
 
                     
