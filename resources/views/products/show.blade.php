@@ -14,6 +14,10 @@
 			<!--MAIN-->
 			<div class="main-container w3-center border-center">
 					<div class="main w3-center borders-center w3-round-xxxlarge">
+
+
+						<!--REPORT MESSAGE-->
+						<div id="reportmessage"></div>
 					
 					
 					
@@ -95,26 +99,58 @@
 
 												<!--CHAT/ADD TO FAVOURITE BTN-->
 												<br />
-												<span>
+												<span style="display: flex;">
+															<a href="/contactseller/{{$user->id}}"><button class="w3-round-large w3-text-white" style="background-color:blue;font-size:150%;">Contact Seller</button></a>
+
+
 														<form class="" method="POST" action="{{route('addfavourite')}}" enctype="multipart/Form-data">
 														{{method_Field('POST')}}
 														@csrf
-															<a href="#"><button class="w3-round-large w3-text-white" style="background-color:blue;font-size:150%;">Contact Seller</button></a>
-
-
 															<input type="hidden" value="{{$product->id}}" name="product-id"></input>
-															<button type="submit" class="w3-round-large w3-padding w3-text-white" style="background-color:blue;font-size:150%;"><i class="fa fa-star"></i></button>
+															<button type="submit" class="w3-round-large w3-padding-small w3-text-white" style="background-color:blue;font-size:150%;"><i class="fa fa-star"></i></button>
 
 														</form>
 
 												</span>
 												<br />
 												
-												<b class="w3-text-red"><u>REPORT PRODUCT</u></b>
+
+
+
+
+
+												<!--REPORT PRODUCT-->
+												<div class="">
+
+													<a href="javascript:void(0);" id="reportproduct" class="reportclass"><b class="w3-text-red"><u>REPORT PRODUCT</u></b></a>
+													<!--FORM-->
+													<div id="reportproductform">
+														<form class="w3-padding" method="POST" action="javascript:void(0);" enctype="multipart/Form-data" id="reportproductformtag">
+															{{method_Field('POST')}}
+															@csrf
+																<b id="emptyreport" class="w3-text-red"></b>
+																<br />
+																<textarea name="report" id="report" placeholder="Lay your complain" col="4" maxlength="255"></textarea>
+																<input type="hidden" name="product_id" value="{{$product->id}}" id="reportid"></input><br /><br />
+																<input type="submit" value="Submit" id="reportsubmit"></input>
+														</form>
+														<br />
+													</div>
+													<br />
+
+												</div>
 												
 												
 										<div class="w3-border borderlng"></div>
 										
+
+
+
+
+
+
+
+
 								
 								<!--WRITE REVIEW-->
 								<div class="">

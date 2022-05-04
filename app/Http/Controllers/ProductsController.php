@@ -296,4 +296,13 @@ class ProductsController extends Controller
 
         return back();
     }
+
+
+    public function search(Request $request){
+        $search=$request->input('search');
+        $searchproducts = Product::query()->where('name','LIKE',"%{$search}%")->orWhere('description','LIKE',"%{$search}%")->get();
+        return view('search')->with('searchproducts',$searchproducts);
+    }
+
+
 }

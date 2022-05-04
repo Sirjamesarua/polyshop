@@ -43,8 +43,8 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
-/*
-        'mysql' => [
+
+        /*'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
@@ -62,9 +62,9 @@ return [
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
-        ],
+        ],*/
 
-*/
+
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL','mysql://b5773b812abd0e:38ff54e4@us-cdbr-east-05.cleardb.net/heroku_840f5305265a281?reconnect=true'),

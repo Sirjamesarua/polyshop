@@ -66,11 +66,11 @@
                                         <br />
                                         <br />
                                         <div class="w3-border borderlng"></div>
-                                            <b><a href="#"><i class="">My ads <i class="w3-text-red">9</i></i></a></b>
+                                            <b><a href="/myads"><i class="">My ads <i class="w3-text-red">9</i></i></a></b>
                                         <div class="w3-border borderlng"></div>
-                                            <b><a href="#"><i class="">Message <i class="w3-text-red">11</i></i></a></b>
+                                            <b><a href="/message"><i class="">Message <i class="w3-text-red">11</i></i></a></b>
                                         <div class="w3-border borderlng"></div>
-                                            <b><a href="#"><i class="">Notifications <i class="w3-text-red">31</i></i></a></b>
+                                            <b><a href="/notification"><i class="">Notifications <i class="w3-text-red">31</i></i></a></b>
                                         <div class="w3-border borderlng"></div>
                                         
                                         

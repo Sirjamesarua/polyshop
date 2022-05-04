@@ -49,3 +49,21 @@ Route::get('/myfavourite', [App\Http\Controllers\AddFavouriteController::class, 
 Route::delete('/products/{product_id}/removefavourite', [App\Http\Controllers\AddfavouriteController::class, 'removefavourite']);
 
 Route::post('/profile', [App\Http\Controllers\HomeController::class, 'changepix']);
+
+//Route::get('/about', [App\Http\Controllers\AboutController::class, 'about']);
+
+Route::get('/notification', [App\Http\Controllers\MessageNotificationController::class, 'notification']);
+
+Route::get('/message', [App\Http\Controllers\MessageNotificationController::class, 'message']);
+
+Route::get('/myads', [App\Http\Controllers\MyadsController::class, 'myads']);
+
+Route::post('/reportproduct', [App\Http\Controllers\ReportproductandsellerController::class, 'reportproduct'])->name('reportproduct');
+
+Route::post('/reportperson', [App\Http\Controllers\ReportproductandsellerController::class, 'reportperson'])->name('reportperson');
+
+Route::get('/search', [App\Http\Controllers\ProductsController::class, 'search'])->name('search');
+
+Route::get('/contactseller/{sellerid}', [App\Http\Controllers\MessageNotificationController::class, 'contactseller'])->name('contactseller');
+ 
+Route::post('/savemessage', [App\Http\Controllers\MessageNotificationController::class, 'savemessage'])->name('savemessage');

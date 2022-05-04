@@ -46,13 +46,35 @@
 										<br />
 										<i><b class="">Number: <span class="w3-text-blue">234{{$profile->phonenumber}}</span></b></i>
 										
+
+
+
+
+
 										<br />
-										<a href="#"><b class="w3-text-red"><u>REPORT THIS PERSON</u></b></a>
-								<br />
+										<a href="javascript:void(0);" id="reportperson" class="reportclass"><b class="w3-text-red"><u>REPORT THIS PERSON</u></b></a><!--FORM-->
+													<div id="reportproductform">
+														<form class="w3-padding" method="POST" action="javascript:void(0);" enctype="multipart/Form-data" id="reportproductformtag">
+															{{method_Field('POST')}}
+															@csrf
+																<b id="emptyreport" class="w3-text-red"></b>
+																<br />
+																<textarea name="report" id="report" placeholder="Lay your complain" col="4" maxlength="255"></textarea>
+																<input type="hidden" name="product_id" value="{{$profile->id}}" id="reportid"></input><br /><br />
+																<input type="submit" value="Submit" id="reportsubmit"></input>
+														</form>
+														<br />
+													</div>
+													<br />
 								
 										<div class="w3-border borderlng"></div>
 										<br />
 								
+								
+
+
+
+
 								
 								
 								
